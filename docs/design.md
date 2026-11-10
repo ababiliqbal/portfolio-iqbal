@@ -48,7 +48,7 @@ Only TWO main route types exist:
 
 - **Headline:** Merancang Aplikasi Web yang Cepat, Terukur, & Cerdas.
 - **Sub-headline:** Halo, saya Muhammad Iqbal Ababil. Mahasiswa S1 Pendidikan Teknik Informatika dan Komputer & Full-stack Web Developer.
-- **About/Value Prop:** Memiliki keahlian mendalam pada Software Development, Machine Learning, dan Deep Learning. Berpengalaman merancang, membangun, hingga mendistribusikan aplikasi web modern secara mandiri maupun dalam tim.
+- **About/Value Prop:** Memiliki keahlian mendalam pada Software Engineering, Web Development, dan Machine Learning. Berpengalaman merancang, membangun, hingga mendistribusikan aplikasi web modern secara mandiri maupun dalam tim.
 - **Skills Array:**
   - Frontend: Next.js, Tailwind CSS, Alpine.js, Vite, Streamlit.
   - Backend: Laravel, FastAPI, PostgreSQL, Supabase, MySQL.

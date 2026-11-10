@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <radialGradient id="aurora" cx="50%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#4f46e5" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glowBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="headGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="torsoGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="500" height="500" rx="36" fill="url(#bg)"/>
+  
+  <!-- Aurora Glow -->
+  <circle cx="250" cy="220" r="190" fill="url(#aurora)"/>
+
+  <!-- Geometric Grid Accent in Background -->
+  <g stroke="#334155" stroke-opacity="0.25" stroke-width="1">
+    <line x1="80" y1="0" x2="80" y2="500"/>
+    <line x1="160" y1="0" x2="160" y2="500"/>
+    <line x1="240" y1="0" x2="240" y2="500"/>
+    <line x1="320" y1="0" x2="320" y2="500"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="0" y1="100" x2="500" y2="100"/>
+    <line x1="0" y1="200" x2="500" y2="200"/>
+    <line x1="0" y1="300" x2="500" y2="300"/>
+    <line x1="0" y1="400" x2="500" y2="400"/>
+  </g>
+
+  <!-- Modern Developer Silhouette / Avatar -->
+  <!-- Outer Aura Ring -->
+  <circle cx="250" cy="190" r="76" fill="none" stroke="url(#glowBorder)" stroke-width="3" stroke-dasharray="6 6"/>
+  
+  <!-- Head -->
+  <circle cx="250" cy="190" r="64" fill="url(#headGrad)" stroke="#475569" stroke-width="2"/>
+  <circle cx="250" cy="190" r="54" fill="#0f172a"/>
+
+  <!-- Monogram Initials -->
+  <text x="250" y="200" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="28" fill="#e0e7ff" letter-spacing="2">MIA</text>
+
+  <!-- Torso & Shoulders -->
+  <path d="M125 420 C125 305, 175 280, 250 280 C325 280, 375 305, 375 420 Z" fill="url(#torsoGrad)" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Neck Tie / Collar line -->
+  <path d="M225 280 L250 325 L275 280" fill="none" stroke="#6366f1" stroke-width="2.5"/>
+
+  <!-- Tech Badge Overlay Pill -->
+  <g transform="translate(145, 435)">
+    <rect width="210" height="34" rx="17" fill="#1e1b4b" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="105" y="22" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="12" fill="#c7d2fe">Muhammad Iqbal Ababil</text>
+  </g>
+</svg>
+
